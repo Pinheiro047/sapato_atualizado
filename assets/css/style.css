@@ -37,7 +37,7 @@ body{
 
 .navbar{   
     position: absolute;
-    top: 12vh;
+    top: 14.9vh;
     left: 15.5px;
     width: 20vw;
     height: 65vh;
@@ -51,6 +51,10 @@ body{
     left: -200vw;
     transition: 20ms
     
+}
+
+.geralzinho{
+    font-size: 12px;
 }
 
 nav li{
@@ -132,6 +136,11 @@ footer{
 
 
 @media(min-width:380px){
+    .geralzinho{
+        background-color: black;
+    }
+
+
     body, .texto-principal{
         font-size: 1.75rem;
         padding: 12px;
