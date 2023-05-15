@@ -34,12 +34,17 @@ body{
     position: absolute;
     top: 10vh;
     left: 15.5px;
-    width: 15vw;
+    width: 20vw;
     height: 65vh;
     background-color: rgb(97, 92, 92);
     color: whitesmoke;
     transition: 200ms;
     cursor: pointer;
+}
+
+.navbar_ativo{
+    left: -200vw;
+    transition: 200ms;
 }
 
 nav li{
