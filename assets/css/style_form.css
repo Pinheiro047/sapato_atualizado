@@ -1,0 +1,44 @@
+.formulario{
+    margin-bottom: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.formulario label{
+    margin-bottom: 8px;
+}
+
+.formulario input, .formulario textarea{
+    margin-bottom: 8px;
+    display: block;
+    width: 70vw;  
+    font-size: 1.2rem;
+    background-color: darkgrey;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    color: darkblue;
+    padding-left: 8px;
+}
+
+.formulario input{
+    height: 32px;
+}
+
+.formulario textarea{
+    height: 240px;
+}
+
+.formulario button{
+    width: 96px;
+    height: 48px;
+    font-size: 1.2rem;
+    background-color: darkgrey;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+}
+
